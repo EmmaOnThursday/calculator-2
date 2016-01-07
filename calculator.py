@@ -20,6 +20,8 @@ def calculator():
                 arguments = []
                 for num in tokens[1:]:
                     arguments.append(float(num))
+                print arguments
+                print type(arguments[1])
                 num1 = float(tokens[1])
                 if tokens[0] == "+":
                     answer = add(arguments)
